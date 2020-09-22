@@ -1,0 +1,103 @@
+* { 
+    position: relative;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+
+ 
+
+
+body {
+    background-image: url("space.gif");
+    background-repeat: repeat;
+    height: 100%;
+    text-align: center;
+  }
+
+  
+    
+    img {
+        width: 40%;
+        height: auto;
+        align:center;
+      }
+
+      h2{
+        color:#00b3f1;
+        font-size: 24pt;
+        line-height: 1.5;
+        letter-spacing: 0.075em;
+        text-transform: uppercase;
+        margin: 0 0 2rem 0;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+    }
+
+
+.icon {
+  position: absolute;
+  /* exact values here depend on what you are placing inside the items (icon, image, text, etc.) */
+  right: 15%;
+  color:white;
+  top: 30%;
+
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  /* make sure it it rotated enough; angle of rotation = angle of the sector itself */
+  transform: rotate(60deg);
+  
+  /* style further as needed */
+  color: darken($base, 60%);
+  font-size: 25px;
+}
+
+
+
+h1{
+  color:#fcbf49;
+  font-size: 32pt;
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  margin: 0 0 2rem 0;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+
+.card{
+  padding: 40px;
+  background-color:transparent;
+   margin-top:10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom:20px;
+   text-align: center;
+  }
+
+  .card2{
+    padding: 40px;
+    background-color:transparent;
+     margin-top:10px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-bottom:20px;
+
+     
+    }
+
+    .right-content img{
+        height: 200px;
+        width:auto;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+    }
+
+
